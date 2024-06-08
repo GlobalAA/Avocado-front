@@ -1,0 +1,14 @@
+.clicker {
+	@apply flex justify-center items-center flex-col gap-4 min-h-full min-w-full;
+	transition: transform 0.3s ease-in-out;
+	img {
+		@apply cursor-pointer select-none transition-transform;
+		transition-duration: 600ms;
+		&.active {
+			transform: scale(0.97);
+		}
+	}
+	h1 {
+		@apply text-4xl select-none;
+	}
+}

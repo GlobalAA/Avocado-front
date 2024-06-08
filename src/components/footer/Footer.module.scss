@@ -1,0 +1,13 @@
+.footer {
+	@apply w-[70%] m-auto h-32;
+	div {
+		@apply w-full flex items-center justify-between;
+		button {
+			@apply transition-colors p-2 bg-neutral-200 w-16 rounded-md text-black flex items-center flex-col;
+			transition-duration: 0.3s;
+			&:hover {
+				background-color: darken(rgb(229 229 229), 13%);
+			}
+		}
+	}
+}

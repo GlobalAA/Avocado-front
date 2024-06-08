@@ -1,0 +1,6 @@
+.header {
+	@apply w-[70%] h-24 flex items-center justify-center m-auto;
+	div {
+		@apply w-full m-auto flex items-center justify-between bg-indigo-900 p-3 rounded-md;
+	}
+}
